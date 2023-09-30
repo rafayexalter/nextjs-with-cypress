@@ -1,4 +1,4 @@
-This is a [Next.js] application and testing it with cypress testing framework.
+This is a `Next.js` application and testing it with cypress testing framework.
 
 ## Getting Started
 
