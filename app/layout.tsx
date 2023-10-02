@@ -29,6 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main className="flex h-14 flex-col items-center justify-between p-24">
+          <h2 className="mb-8 font-bold text-3xl">Testing with Cypress</h2>
           <Nav />
         </main>
         <div className="flex flex-col items-center justify-between p-24">

@@ -23,7 +23,10 @@ describe("Navigation", () => {
     cy.wait(1000);
 
     cy.get('a[href*="javascript"]').click();
-
     cy.url().should("include", "/javascript");
+
+    cy.wait(1000);
+
+    cy.visit("http://localhost:3000/");
   });
 });
